@@ -31,7 +31,7 @@ def trajectoryMatrix(oneSensor,n,L):
     return trajectory_t
 
 
-data = pd.read_csv(r"C:\Users\Anuraag  Kansara\Desktop\Critical Infrastructure\pasad-master\pasad-master\data\1 - Scenario DA1\xmv10_359_data_1.csv")
+data = pd.read_csv(r"..\data\1 - Scenario DA1\xmv10_359_data_1.csv")
 print(data.shape)
 train = data.iloc[:500,:].values
 validation =  data.iloc[251:4000,:].values
